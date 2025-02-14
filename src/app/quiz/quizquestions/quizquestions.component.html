@@ -1,0 +1,39 @@
+<div class="quiz-page-container" *ngIf="!submitted; else resultTemplate">
+    <div class="quiz-header">
+      <h1>{{ quizName }}</h1>
+      <p class="timer">
+        Time Left: {{ (timeLeft / 60) | number:'1.0-0' }}:
+        {{ (timeLeft % 60) | number:'2.0-0' }}
+      </p>
+    </div>
+  
+    <div class="questions-container">
+      <div class="question-card" *ngFor="let question of questions; let i = index">
+        <h2>{{ i + 1 }}. {{ question.question }}</h2>
+        <div class="options">
+          <label *ngFor="let option of question.options">
+            <input type="radio" name="question{{ i }}" [value]="option" [(ngModel)]="question.selectedAnswer" />
+            {{ option }}
+          </label>
+        </div>
+      </div>
+    </div>
+  
+    <button class="submit-btn" (click)="submitQuiz()">Submit Quiz</button>
+  </div>
+  
+  <ng-template #resultTemplate>
+    <div class="result-container">
+      <h2>Quiz Result</h2>
+      <p>Your Score: {{ score }} / {{ questions.length }}</p>
+      <div class="result-details" *ngFor="let question of questions; let i = index">
+        <p>
+          {{ i + 1 }}. {{ question.question }}<br>
+          Your Answer: <strong>{{ question.selectedAnswer }}</strong> |
+          Correct Answer: <strong>{{ question.correctAnswer }}</strong>
+        </p>
+      </div>
+      <button class="submit-btn" (click)="router.navigate(['/studentdash'])">Back to Quizzes</button>
+    </div>
+  </ng-template>
+  

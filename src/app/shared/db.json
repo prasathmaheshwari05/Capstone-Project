@@ -1,0 +1,308 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "student1",
+      "password": "password123"
+    },
+    {
+      "id": "2",
+      "username": "student2",
+      "password": "pass456"
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "1",
+      "name": "Math Quiz",
+      "questions": [
+        {
+          "question": "What is 5 + 3?",
+          "options": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "correctAnswer": "8",
+          "selectedAnswer": ""
+        },
+        {
+          "question": "What is the square root of 16?",
+          "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "correctAnswer": "4",
+          "selectedAnswer": ""
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Science Quiz",
+      "questions": [
+        {
+          "question": "What is H2O commonly known as?",
+          "options": [
+            "Oxygen",
+            "Hydrogen",
+            "Water",
+            "Carbon Dioxide"
+          ],
+          "correctAnswer": "Water",
+          "selectedAnswer": ""
+        },
+        {
+          "question": "Which planet is the largest in the solar system?",
+          "options": [
+            "Mars",
+            "Earth",
+            "Jupiter",
+            "Saturn"
+          ],
+          "correctAnswer": "Jupiter",
+          "selectedAnswer": ""
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "python",
+      "questions": [
+        {
+          "question": "what is",
+          "options": [
+            "p",
+            "ph",
+            "phk",
+            "phkd"
+          ],
+          "correctAnswer": "phkd"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "c",
+      "questions": []
+    },
+    {
+      "id": "7",
+      "name": "math",
+      "questions": [],
+      "completeTime": "15 mins",
+      "postedDate": "2025-02-14T01:13:18.339Z"
+    },
+    {
+      "id": "8",
+      "name": "biology",
+      "questions": [],
+      "completeTime": "45 mins",
+      "postedDate": "2025-02-14T02:03:29.467Z"
+    }
+  ],
+  "results": [
+    {
+      "id": "01af",
+      "quizName": "Math Quiz",
+      "score": 2,
+      "total": 2,
+      "submittedAt": "2025-02-13T11:37:58.734Z"
+    },
+    {
+      "id": "b37d",
+      "userId": 1,
+      "username": "student1",
+      "quizName": "Math Quiz",
+      "score": 2,
+      "total": 2,
+      "submittedAt": "2025-02-13T11:56:36.372Z"
+    },
+    {
+      "id": "317c",
+      "userId": 1,
+      "username": "student1",
+      "quizName": "Math Quiz",
+      "score": 2,
+      "total": 2,
+      "submittedAt": "2025-02-13T11:57:49.687Z"
+    },
+    {
+      "id": "b71b",
+      "userId": 2,
+      "username": "student2",
+      "quizName": "Math Quiz",
+      "score": 1,
+      "total": 2,
+      "submittedAt": "2025-02-13T12:11:26.828Z"
+    },
+    {
+      "id": "e914",
+      "userId": 2,
+      "username": "student2",
+      "quizName": "Java",
+      "score": 1,
+      "total": 2,
+      "submittedAt": "2025-02-13T12:50:19.295Z"
+    },
+    {
+      "id": "9a1c",
+      "userId": 2,
+      "username": "student2",
+      "quizName": "Math Quiz",
+      "score": 1,
+      "total": 2,
+      "submittedAt": "2025-02-13T12:53:06.044Z"
+    },
+    {
+      "id": "1f93",
+      "userId": 2,
+      "username": "student2",
+      "quizName": ".Net",
+      "score": 1,
+      "total": 1,
+      "submittedAt": "2025-02-13T12:54:34.706Z"
+    },
+    {
+      "id": "f577",
+      "userId": "1",
+      "username": "student1",
+      "quizName": "Math Quiz",
+      "score": 0,
+      "total": 2,
+      "submittedAt": "2025-02-13T18:10:53.214Z"
+    },
+    {
+      "id": "9d6e",
+      "userId": "1",
+      "username": "student1",
+      "quizName": "Math Quiz",
+      "score": 1,
+      "total": 2,
+      "submittedAt": "2025-02-13T18:11:29.372Z"
+    },
+    {
+      "id": "1e2d",
+      "userId": "1",
+      "username": "student1",
+      "quizName": "Math Quiz",
+      "score": 0,
+      "total": 2,
+      "submittedAt": "2025-02-13T18:16:28.531Z"
+    },
+    {
+      "id": "a193",
+      "userId": "1",
+      "username": "student1",
+      "quizName": "Science Quiz",
+      "score": 0,
+      "total": 2,
+      "submittedAt": "2025-02-13T18:45:19.941Z"
+    },
+    {
+      "id": "e1d3",
+      "userId": "1",
+      "username": "student1",
+      "quizName": "Math Quiz",
+      "score": 1,
+      "total": 2,
+      "submittedAt": "2025-02-13T20:55:03.038Z"
+    },
+    {
+      "id": "9038",
+      "userId": "1",
+      "username": "student1",
+      "quizName": "Math Quiz",
+      "score": 0,
+      "total": 2,
+      "submittedAt": "2025-02-13T21:14:42.215Z"
+    },
+    {
+      "id": "6a79",
+      "userId": "1",
+      "username": "student1",
+      "quizName": "Math Quiz",
+      "score": 1,
+      "total": 2,
+      "submittedAt": "2025-02-13T21:16:38.285Z"
+    },
+    {
+      "id": "2c69",
+      "userId": "1",
+      "username": "student1",
+      "quizName": "Math Quiz",
+      "score": 0,
+      "total": 2,
+      "submittedAt": "2025-02-13T21:22:05.070Z"
+    },
+    {
+      "id": "28f5",
+      "userId": "1",
+      "username": "student1",
+      "quizName": "Math Quiz",
+      "score": 0,
+      "total": 2,
+      "submittedAt": "2025-02-13T21:23:05.342Z"
+    },
+    {
+      "id": "a8b9",
+      "userId": "1",
+      "username": "student1",
+      "quizName": "Science Quiz",
+      "score": 1,
+      "total": 2,
+      "submittedAt": "2025-02-14T00:39:55.720Z"
+    },
+    {
+      "id": "a61d",
+      "userId": "1",
+      "username": "student1",
+      "quizName": ".Net",
+      "score": 0,
+      "total": 1,
+      "submittedAt": "2025-02-14T00:40:16.630Z"
+    },
+    {
+      "id": "86a2",
+      "userId": "1",
+      "username": "student1",
+      "quizName": "python",
+      "score": 0,
+      "total": 1,
+      "submittedAt": "2025-02-14T01:55:50.351Z"
+    },
+    {
+      "id": "4870",
+      "userId": "1",
+      "username": "student1",
+      "quizName": "Math Quiz",
+      "score": 1,
+      "total": 2,
+      "submittedAt": "2025-02-14T01:59:43.519Z"
+    },
+    {
+      "id": "c686",
+      "userId": "1",
+      "username": "student1",
+      "quizName": "Math Quiz",
+      "score": 0,
+      "total": 2,
+      "submittedAt": "2025-02-14T02:26:52.584Z"
+    }
+  ],
+  "admins": [
+    {
+      "id": "1",
+      "username": "admin1",
+      "password": "admin123"
+    },
+    {
+      "id": "2",
+      "username": "admin2",
+      "password": "admin456"
+    }
+  ]
+}
