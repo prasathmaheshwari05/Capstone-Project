@@ -72,9 +72,10 @@ export class AdmindashComponent implements OnInit {
 
   // Select a quiz to add or edit questions
   selectQuiz(quiz: any) {
-    this.selectedQuiz = JSON.parse(JSON.stringify(quiz)); // Deep copy to prevent direct mutation
-    this.newQuestion = { question: '', options: ['', '', '', ''], correctAnswer: '', difficulty: 'easy' };
-  }
+  console.log("Selected quiz:", quiz); // Debugging: See if quiz is selected
+  this.selectedQuiz = { ...quiz }; // ✅ Shallow copy to prevent direct mutation
+}
+
 
   // Add a question to the selected quiz
   addQuestionToQuiz() {

@@ -46,7 +46,8 @@
     background: none;
     border: none;
     color: white;
-    font-size: 40px;
+    font-size: 25px;
+    margin-right:50px ;
     font-weight: bold;
     cursor: pointer;
     transition: 0.3s ease-in-out;

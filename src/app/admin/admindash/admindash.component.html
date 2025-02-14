@@ -36,7 +36,7 @@
           <td>{{ quiz.completeTime }}</td>
           <td>{{ quiz.postedDate | date:'MMM d, y h:mm a' }}</td>
           <td>
-            <button (click)="selectQuiz(quiz)">Edit</button>
+            <button (click)="selectQuiz(quiz)">Edit</button><br/>
             <button (click)="deleteQuiz(quiz.id)">Delete</button>
           </td>
         </tr>

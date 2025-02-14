@@ -30,9 +30,9 @@
    <div class="login-container">
     <h2>Student Login</h2>
     <!-- <label for="">username</label> -->
-    <input type="text" [(ngModel)]="username" placeholder="Username" required >
+    <input type="text" [(ngModel)]="username" placeholder="Username" class="form-control" required >
     <!-- <label for="">Password</label> -->
-    <input type="password" [(ngModel)]="password" class="form-module" placeholder="Password" required>
+    <input type="password" [(ngModel)]="password" class="form-module" class="form-control" placeholder="Password" required>
     <button (click)="login()">Login</button>
      <p>Don't have an account?  
       <a routerLink="/studentregister">Register as Student</a>  
